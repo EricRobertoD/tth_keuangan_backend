@@ -14,8 +14,8 @@ class AdminSeeder extends Seeder
     public function run(): void
     {
         $adminData = [
-            'name' => 'eric',
-            'password' => Hash::make('eric'),
+            'name' => 'urel',
+            'password' => Hash::make('tth2024'),
         ];
 
         Admin::create($adminData);
